@@ -37,5 +37,8 @@ Open ```http://localhost:3000/``` in your browser to see the result.
 
 - [Access to Underlying Widgets](https://docs.devexpress.com/Dashboard/400996/web-dashboard/ui-elements-and-customization/access-to-underlying-widgets?p=netframework)
 
-## Examples
+## More Examples
 - [Dashboard Component for React - Configuration](https://github.com/DevExpress-Examples/dashboard-react-example)
+- [ASP.NET Core Dashboard - How to access API of underlying widgets](https://github.com/DevExpress-Examples/asp-net-core-dashboard-underlying-widgets-api)
+- [ASP.NET MVC Dashboard - How to access API of underlying widgets](https://github.com/DevExpress-Examples/asp-net-mvc-dashboard-underlying-widgets-api)
+- [ASP.NET Web Forms Dashboard - How to access API of underlying widgets](https://github.com/DevExpress-Examples/how-to-access-api-of-underlying-widgets-in-the-aspnet-dashboard-control-t492396)
