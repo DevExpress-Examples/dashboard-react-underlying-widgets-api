@@ -12,8 +12,8 @@ The customized options are listed below:
 
 The example uses a modular client-server approach. The server (backend) project communicates with the client (frontend) application that includes all the necessary styles, scripts and HTML templates. Note that the script version on the client must match the version of libraries on the server.
 
-- The [asp-net-core-server](asp-net-core-server) folder contains an ASP.NET Core 3.1 Dashboard application.
-- The [dashboard-react-app](dashboard-react-app) folder contains a client application.
+- The [asp-net-core-server](CS/asp-net-core-server) folder contains an ASP.NET Core 3.1 Dashboard application.
+- The [dashboard-react-app](CS/dashboard-react-app) folder contains a client application.
 
 ## Quick Start
 
