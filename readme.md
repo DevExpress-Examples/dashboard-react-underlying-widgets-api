@@ -1,4 +1,10 @@
-# Dashboard Component for React - How to access API of underlying widgets
+<!-- default file list -->
+*Files to look at*:
+
+* [App.js](./dashboard-react-app/src/App.js)
+<!-- default file list end -->
+
+# Dashboard for React - How to access API of underlying widgets
 
 The following example shows how to customize options of underlying widgets in the Dashboard Component for React. For this, you need to handle the [onItemWidgetOptionsPrepared](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemwidgetoptionsprepared) event.
 
