@@ -42,6 +42,7 @@ Open ```http://localhost:3000/``` in your browser to see the result.
 ## Documentation
 
 - [Access to Underlying Widgets](https://docs.devexpress.com/Dashboard/400996/web-dashboard/ui-elements-and-customization/access-to-underlying-widgets?p=netframework)
+- [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
 
 ## More Examples
 - [Dashboard Component for React - Configuration](https://github.com/DevExpress-Examples/dashboard-react-example)
