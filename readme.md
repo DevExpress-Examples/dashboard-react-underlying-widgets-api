@@ -8,11 +8,9 @@
 
 The following example shows how to customize options of underlying widgets in the Dashboard Component for React. For this, you need to handle the [onItemWidgetOptionsPrepared](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemwidgetoptionsprepared) event.
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [App.js](./dashboard-react-app/src/App.js)
-<!-- default file list end -->
 
 The customized options are listed below:
 
