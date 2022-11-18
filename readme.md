@@ -8,11 +8,9 @@
 
 The following example shows how to customize options of underlying widgets in the Dashboard Component for React. For this, you need to handle the [onItemWidgetOptionsPrepared](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemwidgetoptionsprepared) event.
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [App.js](./dashboard-react-app/src/App.js)
-<!-- default file list end -->
 
 The customized options are listed below:
 
@@ -24,7 +22,7 @@ The customized options are listed below:
 
 The example uses a modular client-server approach. The server (backend) project communicates with the client (frontend) application that includes all the necessary styles, scripts and HTML templates. Note that the script version on the client must match the version of libraries on the server.
 
-- The [asp-net-core-server](asp-net-core-server) folder contains an ASP.NET Core 3.1 Dashboard application.
+- The [asp-net-core-server](asp-net-core-server) folder contains an ASP.NET Core 6.0 Dashboard application.
 - The [dashboard-react-app](dashboard-react-app) folder contains a client application.
 
 ## Quick Start
