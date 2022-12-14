@@ -2,8 +2,7 @@
 <Dashboard>
   <Title Text="Dashboard with customized widgets" />
   <DataSources>
-    <JsonDataSource Name="Support" RootElement="Employee" ComponentName="jsonDataSource1" ConnectionName="jsonSupport">
-      <Source SourceType="DevExpress.DataAccess.Json.UriJsonSource" />
+    <JsonDataSource Name="Support" ConnectionName="jsonSupport" RootElement="Employee" ComponentName="jsonDataSource1">
       <Schema>
         <Node Name="root" Type="System.Object" Selected="true" NodeType="Object">
           <Node Name="Employee" Selected="true" NodeType="Array">
@@ -15,8 +14,7 @@
         </Node>
       </Schema>
     </JsonDataSource>
-    <JsonDataSource Name="Categories" RootElement="Products" ComponentName="jsonDataSource2" ConnectionName="jsonCategories">
-      <Source SourceType="DevExpress.DataAccess.Json.UriJsonSource" />
+    <JsonDataSource Name="Categories" ConnectionName="jsonCategories" RootElement="Products" ComponentName="jsonDataSource2">
       <Schema>
         <Node Name="root" Type="System.Object" Selected="true" NodeType="Object">
           <Node Name="CategoryId" Type="System.Nullable`1[System.Int64]" Selected="true" NodeType="Property" />
@@ -90,13 +88,36 @@
         <Value DefaultId="DataItem0" />
       </Values>
     </Pie>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Gauges 1" ShowCaption="false" DataSource="jsonDataSource2">
+      <DataItems>
+        <Measure DataMember="UnitPrice" DefaultId="DataItem0">
+          <NumericFormat FormatType="Currency" />
+        </Measure>
+        <Measure DataMember="UnitsInStock" DefaultId="DataItem1" />
+      </DataItems>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem0" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem1" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+    </Gauge>
   </Items>
   <LayoutTree>
     <LayoutGroup>
       <LayoutGroup>
         <LayoutItem DashboardItem="gridDashboardItem1" Weight="0.592898963716667" />
         <LayoutGroup Orientation="Vertical" Weight="1.407101036283333">
-          <LayoutItem DashboardItem="chartDashboardItem2" Weight="1.6972067039106145" />
+          <LayoutGroup Weight="1.6972067039106145">
+            <LayoutItem DashboardItem="gaugeDashboardItem1" Weight="1.6972067039106145" />
+            <LayoutItem DashboardItem="chartDashboardItem2" Weight="1.6972067039106145" />
+          </LayoutGroup>
           <LayoutItem DashboardItem="pieDashboardItem1" Weight="1.6972067039106145" />
         </LayoutGroup>
       </LayoutGroup>
